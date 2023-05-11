@@ -17,7 +17,7 @@ For this particular project, I constructed a small-scale honeynet on Azure and i
 ## Architecture After Hardening / Security Controls
 ![Architecture Diagram](https://i.imgur.com/YQNa9Pp.jpg)
 
-The architecture of the mini honeynet in Azure consists of the following components:
+The essential elements of the mini SOC Honeynet in Azure include the following components:
 
 - Virtual Network (VNet)
 - Network Security Group (NSG)

@@ -27,7 +27,7 @@ The essential elements of the mini SOC Honeynet in Azure include the following c
 - Azure Storage Account
 - Microsoft Sentinel
 
-For the "BEFORE" metrics, all resources were originally deployed, exposed to the internet. The Virtual Machines had both their Network Security Groups and built-in firewalls wide open, and all other resources are deployed with public endpoints visible to the Internet; aka, no use for Private Endpoints.
+In terms of the "BEFORE" metrics, all resources were initially set up and made available on the internet. The Virtual Machines were configured with Network Security Groups and built-in firewalls that were completely open to all traffic, while all other resources were deployed with public endpoints that were easily accessible from the internet. Private Endpoints were not needed due to the nature of the deployment.
 
 For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
 

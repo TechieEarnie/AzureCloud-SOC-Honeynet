@@ -29,7 +29,7 @@ The essential elements of the mini SOC Honeynet in Azure include the following c
 
 In terms of the "BEFORE" metrics, all resources were initially set up and made available on the internet. The Virtual Machines were configured with Network Security Groups and built-in firewalls that were completely open to all traffic, while all other resources were deployed with public endpoints that were easily accessible from the internet. Private Endpoints were not needed due to the nature of the deployment.
 
-For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
+Concerning the "AFTER" metrics, the Network Security Groups underwent rigorous hardening procedures by allowing ONLY authorized traffic to pass through, specifically from my admin workstation. Furthermore, all other resources were fortified by their built-in firewalls and additional security measures were put in place, including Private Endpoints that ensured secure access.
 
 ## Attack Maps Before Hardening / Security Controls
 ![NSG Allowed Inbound Malicious Flows](https://i.imgur.com/1qvswSX.png)<br>
@@ -38,7 +38,7 @@ For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL t
 
 ## Metrics Before Hardening / Security Controls
 
-The following table shows the metrics we measured in our insecure environment for 24 hours:
+The following table shows the metrics I measured in the insecure environment for 24 hours:
 Start Time 2023-03-15 17:04:29
 Stop Time 2023-03-16 17:04:29
 
@@ -56,7 +56,7 @@ Stop Time 2023-03-16 17:04:29
 
 ## Metrics After Hardening / Security Controls
 
-The following table shows the metrics we measured in our environment for another 24 hours, but after we have applied security controls:
+The following table shows the metrics I measured in the environment for another 24 hours, but after security controls were applied:
 Start Time 2023-03-18 15:37
 Stop Time	2023-03-19 15:37
 

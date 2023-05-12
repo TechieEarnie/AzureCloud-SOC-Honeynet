@@ -68,7 +68,7 @@ Stop Time	2023-05-08 15:37
 | SecurityIncident         | 0
 | AzureNetworkAnalytics_CL | 0
 
-## Metrics After Hardening / Security Controls
+## Percentage of change in Metrics After Hardening / Security Controls
 
 The following table shows the metrics I measured in the environment for another 24 hours, but after security controls were applied:
 Start Time 2023-05-07 10:28

@@ -57,8 +57,8 @@ Stop Time 2023-05-07 15:35 CST
 ## Metrics After Hardening / Security Controls
 
 The following table shows the metrics I measured in the environment for another 24 hours, but after security controls were applied:
-Start Time 2023-03-18 15:37
-Stop Time	2023-03-19 15:37
+Start Time 2023-05-07 10:28
+Stop Time	2023-05-08 15:37
 
 | Metric                   | Count
 | ------------------------ | -----

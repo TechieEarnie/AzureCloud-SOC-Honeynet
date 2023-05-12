@@ -33,8 +33,8 @@ Concerning the "AFTER" metrics, the Network Security Groups underwent rigorous h
 
 ## Attack Maps Before Hardening / Security Controls
 ![NSG Allowed Inbound Malicious Flows](https://i.imgur.com/XebwxCg.png)<br>
-![Linux Syslog Auth Failures](https://i.imgur.com/G1YgZt6.png)<br>
-![Windows RDP/SMB Auth Failures](https://i.imgur.com/ESr9Dlv.png)<br>
+![Linux Syslog Auth Failures](https://i.imgur.com/CEYb2yY.png)<br>
+![Windows RDP/SMB Auth Failures](https://i.imgur.com/8Oe6kUP.png)<br>
 
 ## Metrics Before Hardening / Security Controls
 

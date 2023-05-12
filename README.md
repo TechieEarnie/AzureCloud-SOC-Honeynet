@@ -76,11 +76,11 @@ Stop Time	2023-05-08 15:37
 
 | Metric                   | % of change after securing environment
 | ------------------------ | -----
-| SecurityEvent            | 82.05 %
-| Syslog                   | 99.21 %
-| SecurityAlert            | 100 %
-| SecurityIncident         | 100 %
-| AzureNetworkAnalytics_CL | 100 %
+| SecurityEvent            | 82.05% Less Security Events
+| Syslog                   | 99.21% Less syslog
+| SecurityAlert            | 100% Less Security Alerts
+| SecurityIncident         | 100% Less Security Incidents
+| AzureNetworkAnalytics_CL | 100% Less Network Security Group Inbound Malicious flows allowed
 
 ## Conclusion
 
